@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function WebDevHero() {
   return (
-    <section className="min-h-[75vh] flex flex-col justify-center pt-24 pb-10">
+    <section className="min-h-[75vh] flex flex-col justify-center pb-10">
       <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center w-full">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
