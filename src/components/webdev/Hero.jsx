@@ -57,7 +57,8 @@ function WebDevHero() {
               View Projects
             </a>
             <a
-              href="/Akash_Prajapati_Resume.pdf"
+              href="/Akash_Prajapati_resume.pdf"
+              download="Akash_Prajapati_resume.pdf"
               target="_blank"
               className="px-8 py-4 rounded-full border border-gray-300 hover:border-gray-900 text-gray-900 font-bold transition-colors text-center"
             >

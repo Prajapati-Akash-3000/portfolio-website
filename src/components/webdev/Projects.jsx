@@ -32,12 +32,12 @@ function WebDevProjects() {
   return (
     <section id="projects" className="max-w-7xl mx-auto px-6 py-24 relative">
       <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
-        <h2 className="text-4xl font-bold mb-16 text-center text-gray-900">Featured Projects</h2>
+        <h2 className="text-4xl font-bold mb-16 text-center text-gray-900">Projects</h2>
         
         <div className="border border-gray-200 rounded-3xl overflow-hidden bg-white shadow-xl">
           <div className="p-8 md:p-12 lg:p-16 bg-gradient-to-br from-indigo-50 to-purple-50">
             <div className="flex flex-col xl:flex-row justify-between items-start xl:items-center mb-8 gap-6">
-              <h3 className="text-4xl md:text-5xl font-bold text-gray-900">Utsavora</h3>
+              <h3 className="text-4xl md:text-5xl font-bold text-gray-900">⭐ Utsavora <span className="text-xl md:text-2xl font-normal text-gray-500 block mt-2">SaaS-Style Event Management Platform</span></h3>
               <div className="flex flex-wrap gap-4">
                 <a href="#" className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-gray-900 text-white font-medium hover:bg-gray-800 transition-colors">
                   <FaExternalLinkAlt /> Live Demo
@@ -102,6 +102,49 @@ function WebDevProjects() {
                 ))}
               </div>
             </section>
+          </div>
+        </div>
+        
+        {/* PasteApp Card */}
+        <div className="mt-8 border border-gray-200 rounded-3xl overflow-hidden bg-white shadow-md hover:shadow-lg transition-shadow">
+          <div className="p-8 md:p-10 lg:p-12">
+            <div className="flex flex-col xl:flex-row justify-between items-start xl:items-center mb-6 gap-6">
+              <h3 className="text-3xl md:text-4xl font-bold text-gray-900">🚀 PasteApp <span className="text-lg md:text-xl font-normal text-gray-500 block mt-2">React-Based Paste Sharing Application</span></h3>
+              <div className="flex flex-wrap gap-4">
+                <a href="https://paste-app-ochre-seven.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-indigo-50 text-indigo-700 font-medium hover:bg-indigo-100 transition-colors">
+                  <FaExternalLinkAlt /> Live Demo
+                </a>
+                <a href="https://github.com/Prajapati-Akash-3000/PasteApp" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-gray-300 font-medium hover:bg-gray-50 transition-colors">
+                  <FaGithub /> GitHub
+                </a>
+              </div>
+            </div>
+            
+            <div className="grid md:grid-cols-2 gap-12">
+              <div>
+                <p className="text-gray-600 text-lg leading-relaxed mb-6">
+                  A lightweight paste-sharing application built with React.js, allowing users to create, edit, organize, and manage text snippets through a modern and responsive interface.
+                </p>
+                <h4 className="text-lg font-semibold mb-3 text-indigo-600">Highlights</h4>
+                <ul className="space-y-2">
+                  {['Create, edit, and view pastes with exact dates', 'One-click copy and seamless sharing', 'Fast client-side navigation', 'Persistent local storage', 'Responsive UI'].map(feature => (
+                    <li key={feature} className="flex items-start gap-2">
+                      <FaCheckCircle className="text-green-500 mt-1 flex-shrink-0" size={16} />
+                      <span className="text-gray-600">{feature}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              
+              <div>
+                <h4 className="text-xl font-semibold mb-4 text-indigo-600">Technology Stack</h4>
+                <div className="flex flex-wrap gap-2">
+                  {['React.js', 'Local Storage', 'React Router', 'Tailwind CSS'].map(tech => (
+                    <span key={tech} className="px-3 py-1.5 bg-gray-50 border border-gray-200 rounded-lg text-sm font-medium text-gray-700">{tech}</span>
+                  ))}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </motion.div>

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
-import { FaBriefcase, FaCalendarAlt, FaCertificate } from 'react-icons/fa';
-import { SiDjango, SiPostgresql, SiPython } from 'react-icons/si';
+import { FaBriefcase, FaCalendarAlt, FaCertificate, FaHtml5, FaCss3Alt } from 'react-icons/fa';
+import { SiDjango, SiSqlite, SiPython } from 'react-icons/si';
 
 function WebDevExperience() {
   return (
@@ -22,12 +22,12 @@ function WebDevExperience() {
             </div>
             
             <div className="hidden sm:block absolute left-0 top-9 w-16 text-right text-sm font-bold text-gray-400">
-              2023
+              2026
             </div>
 
             <div className="p-6 sm:p-8 md:p-10 rounded-3xl border border-gray-200 bg-white shadow-xl hover:border-gray-300 transition-colors">
               <div className="sm:hidden flex items-center gap-2 text-sm font-semibold text-indigo-600 mb-3">
-                <FaCalendarAlt /> 2023
+                <FaCalendarAlt /> Jan - Mar 2026
               </div>
               
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-6">
@@ -39,14 +39,14 @@ function WebDevExperience() {
                   <span className="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-gray-100 text-gray-700 text-sm font-medium border border-gray-200 w-fit">
                     <FaCalendarAlt className="text-gray-500" /> 2 Months
                   </span>
-                  <a href="#" className="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-emerald-100 text-emerald-700 text-sm font-medium border border-emerald-200 hover:bg-emerald-200 transition-colors w-fit">
-                    <FaCertificate /> Certificate Available
-                  </a>
+                  {/* <a href="#" className="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-emerald-100 text-emerald-700 text-sm font-medium border border-emerald-200 hover:bg-emerald-200 transition-colors w-fit">
+                    <FaCertificate /> 
+                  </a> */}
                 </div>
               </div>
               
               <p className="text-gray-600 text-lg leading-relaxed mb-8">
-                Completed an intensive internship focused on Python programming, object-oriented development, Django fundamentals, database integration, and web application architecture.
+                Completed a 2-month internship focused on Python, Object-Oriented Programming (OOP), Django fundamentals, and REST API concepts. Developed a small furniture website and gained practical experience in web application development.
               </p>
               
               <div className="grid md:grid-cols-2 gap-8">
@@ -54,10 +54,11 @@ function WebDevExperience() {
                   <h4 className="font-bold text-gray-900 mb-4 text-lg">Key Outcomes:</h4>
                   <ul className="space-y-3">
                     {[
-                      'Built robust Django-based applications', 
-                      'Mastered REST API fundamentals and DRF', 
-                      'Designed and queried relational databases', 
-                      'Applied advanced OOP principles'
+                      'Learned Python fundamentals and OOP concepts', 
+                      'Built a furniture website using Django', 
+                      'Gained understanding of REST API concepts', 
+                      'Worked with Django models and databases',
+                      'Strengthened problem-solving and development skills'
                     ].map((item, index) => (
                       <li key={index} className="flex items-start gap-3">
                         <span className="w-2 h-2 rounded-full bg-indigo-500 mt-2 flex-shrink-0"></span>
@@ -77,7 +78,13 @@ function WebDevExperience() {
                       <SiDjango className="text-[#092E20] text-lg" /> Django
                     </span>
                     <span className="flex items-center gap-2 px-4 py-2 bg-gray-100 border border-gray-200 rounded-xl text-gray-700 text-sm font-medium">
-                      <SiPostgresql className="text-[#336791] text-lg" /> PostgreSQL
+                      <span className="font-bold text-gray-500">{"{ }"}</span> REST API
+                    </span>
+                    <span className="flex items-center gap-2 px-4 py-2 bg-gray-100 border border-gray-200 rounded-xl text-gray-700 text-sm font-medium">
+                      <SiSqlite className="text-[#003B57] text-lg" /> SQLite
+                    </span>
+                    <span className="flex items-center gap-2 px-4 py-2 bg-gray-100 border border-gray-200 rounded-xl text-gray-700 text-sm font-medium">
+                      <FaHtml5 className="text-[#E34F26] text-lg" /> HTML/CSS
                     </span>
                   </div>
                 </div>
