@@ -115,6 +115,7 @@ function WebDevContact() {
                     maxLength={50}
                     pattern="^[a-zA-Z\s]+$"
                     title="Name should only contain letters and spaces."
+                    onInput={(e) => { e.target.value = e.target.value.replace(/[^a-zA-Z\s]/g, ''); }}
                     className="w-full px-5 py-3 rounded-xl border border-gray-200 bg-white/70 focus:bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all" 
                     placeholder="John Doe" 
                   />
@@ -128,9 +129,10 @@ function WebDevContact() {
                     id="phone" 
                     required 
                     pattern="[0-9]{10}"
-                    title="Please enter exactly 10 digits without spaces or special characters."
+                    title="Please enter exactly 10 digits."
                     maxLength={10}
                     minLength={10}
+                    onInput={(e) => { e.target.value = e.target.value.replace(/[^0-9]/g, ''); }}
                     className="w-full px-5 py-3 rounded-xl border border-gray-200 bg-white/70 focus:bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all" 
                     placeholder="9876543210" 
                   />
@@ -144,6 +146,8 @@ function WebDevContact() {
                   name="email" 
                   id="email" 
                   required 
+                  pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+                  title="Please enter a valid email address."
                   className="w-full px-5 py-3 rounded-xl border border-gray-200 bg-white/70 focus:bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all" 
                   placeholder="john@example.com" 
                 />
