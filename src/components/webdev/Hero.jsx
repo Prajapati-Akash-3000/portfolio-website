@@ -70,7 +70,7 @@ function WebDevHero() {
             Available for new opportunities
           </motion.div>
 
-          <h1 className="text-6xl sm:text-7xl md:text-8xl font-black leading-[1.1] mb-6 text-slate-900 tracking-tight">
+          <h1 className="text-5xl sm:text-7xl md:text-8xl font-black leading-[1.1] mb-6 text-slate-900 tracking-tight">
             Hi, I'm <br />
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 via-indigo-500 to-purple-600">
               Akash Prajapati
@@ -85,7 +85,7 @@ function WebDevHero() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -20 }}
                 transition={{ duration: 0.4 }}
-                className="text-2xl sm:text-3xl md:text-4xl text-slate-700 font-bold"
+                className="text-xl sm:text-3xl md:text-4xl text-slate-700 font-bold"
               >
                 {roles[currentRoleIndex]}
               </motion.h2>
@@ -147,7 +147,7 @@ function WebDevHero() {
           transition={{ duration: 1, ease: "easeOut" }}
           className="order-1 lg:order-2 flex justify-center relative"
         >
-          <div className="relative w-72 h-72 sm:w-80 sm:h-80 md:w-[400px] md:h-[400px]">
+          <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-[400px] md:h-[400px]">
             {/* Rotating glowing border effect */}
             <div className="absolute -inset-4 bg-gradient-to-tr from-cyan-400 to-indigo-500 rounded-[4rem] blur-xl opacity-30 animate-[spin_8s_linear_infinite]"></div>
             

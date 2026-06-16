@@ -105,7 +105,7 @@ function WebDevProjects() {
         >
           <FaRocket className="text-3xl text-indigo-500" />
         </motion.div>
-        <h2 className="text-5xl md:text-6xl font-black text-gray-900 mb-6 tracking-tight relative z-10">Featured Projects</h2>
+        <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-gray-900 mb-6 tracking-tight relative z-10">Featured Projects</h2>
       </div>
       
       {/* ================= PROJECT 1: UTSAVORA (BENTO GRID) ================= */}
@@ -164,7 +164,7 @@ function WebDevProjects() {
                 SaaS Platform
               </div>
               
-              <h3 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 tracking-tight group-hover:text-indigo-600 transition-colors">Utsavora</h3>
+              <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 tracking-tight group-hover:text-indigo-600 transition-colors">Utsavora</h3>
               <p className="text-xl text-gray-500 mb-8 font-medium">Comprehensive Event Management Ecosystem</p>
               
               <p className="text-gray-600 text-lg leading-relaxed mb-10">
@@ -346,7 +346,7 @@ function WebDevProjects() {
                 Frontend Utility
               </div>
               
-              <h3 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 tracking-tight group-hover:text-blue-600 transition-colors">PasteApp</h3>
+              <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 tracking-tight group-hover:text-blue-600 transition-colors">PasteApp</h3>
               <p className="text-xl text-gray-500 mb-8 font-medium">React-Based Paste Sharing Application</p>
               
               <p className="text-gray-600 text-lg leading-relaxed mb-10">
@@ -419,7 +419,7 @@ function WebDevProjects() {
                 <button onClick={() => setActiveModal(null)} className="absolute top-6 right-6 p-4 bg-gray-50 rounded-full hover:bg-red-50 hover:text-red-500 transition-colors text-gray-400 outline-none"><FaTimes size={20} /></button>
                 
                 <div className="text-center mb-16">
-                  <h4 className="text-4xl md:text-5xl font-black text-gray-900 mb-4 tracking-tight">System Architecture</h4>
+                  <h4 className="text-3xl md:text-4xl lg:text-5xl font-black text-gray-900 mb-4 tracking-tight">System Architecture</h4>
                   <div className="w-16 h-1.5 bg-indigo-500 mx-auto rounded-full mb-4"></div>
                   <p className="text-gray-500 text-lg font-medium">Structural Overview of Utsavora</p>
                 </div>

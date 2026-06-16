@@ -53,7 +53,7 @@ function WebDevContact() {
           <div className="lg:col-span-2 bg-indigo-900 text-white p-10 md:p-14 flex flex-col justify-between">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-4 tracking-tight">Let's talk about your project</h2>
-              <p className="text-indigo-200 mb-10 text-lg">
+              <p className="text-indigo-200 mb-10 text-base md:text-lg">
                 Fill out the form and I'll get back to you within 24 hours. Let's create something amazing together.
               </p>
 

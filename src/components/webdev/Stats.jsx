@@ -29,7 +29,7 @@ function WebDevStats() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6"
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6"
       >
         {stats.map((item, index) => (
           <motion.div
@@ -41,7 +41,7 @@ function WebDevStats() {
             <div className={`w-12 h-12 rounded-2xl ${item.bg} ${item.color} flex items-center justify-center text-xl mb-4`}>
               {item.icon}
             </div>
-            <h3 className="text-3xl md:text-4xl font-black text-gray-900 mb-1 tracking-tight">
+            <h3 className="text-3xl lg:text-4xl font-black text-gray-900 mb-1 tracking-tight">
               {item.prefix}<CountUp end={item.end} duration={2.5} separator="," />{item.suffix}
             </h3>
             <p className="text-xs md:text-sm text-gray-500 font-bold uppercase tracking-wider">

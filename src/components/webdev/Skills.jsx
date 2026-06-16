@@ -78,7 +78,7 @@ function WebDevSkills() {
           >
             <FaCode className="text-3xl text-cyan-500" />
           </motion.div>
-          <h2 className="text-5xl md:text-6xl font-black text-gray-900 mb-6 tracking-tight">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-gray-900 mb-6 tracking-tight">
             Technical <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-600">Arsenal</span>
           </h2>
         </div>
@@ -108,7 +108,7 @@ function WebDevSkills() {
               <div className="w-16 h-16 rounded-2xl bg-cyan-50 text-cyan-500 flex items-center justify-center text-3xl mb-8 border border-cyan-100 shadow-sm">
                 <FaLaptopCode />
               </div>
-              <h3 className="text-3xl md:text-4xl font-black text-gray-900 mb-8 tracking-tight">Frontend Engineering</h3>
+              <h3 className="text-2xl md:text-3xl lg:text-4xl font-black text-gray-900 mb-8 tracking-tight">Frontend Engineering</h3>
               
               <div className="flex flex-wrap gap-4">
                 {frontendSkills.map((skill) => (
@@ -141,7 +141,7 @@ function WebDevSkills() {
               <div className="w-16 h-16 rounded-2xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-3xl mb-8 border border-emerald-500/20 shadow-sm">
                 <FaServerAlt />
               </div>
-              <h3 className="text-3xl font-black text-white mb-8 tracking-tight">Backend Architecture</h3>
+              <h3 className="text-2xl md:text-3xl lg:text-4xl font-black text-white mb-8 tracking-tight">Backend Architecture</h3>
               
               <div className="flex flex-col gap-4 mt-auto">
                 {backendSkills.map((skill) => (
@@ -174,7 +174,7 @@ function WebDevSkills() {
               <div className="w-16 h-16 rounded-2xl bg-indigo-100 text-indigo-600 flex items-center justify-center text-3xl mb-8 border border-indigo-200 shadow-sm">
                 <FaDatabase />
               </div>
-              <h3 className="text-3xl font-black text-indigo-950 mb-8 tracking-tight">Database Management</h3>
+              <h3 className="text-2xl md:text-3xl lg:text-4xl font-black text-indigo-950 mb-8 tracking-tight">Database Management</h3>
               
               <div className="flex flex-col gap-4 mt-auto">
                 {dbSkills.map((skill) => (
@@ -204,7 +204,7 @@ function WebDevSkills() {
               <div className="w-16 h-16 rounded-2xl bg-rose-500/10 text-rose-400 flex items-center justify-center text-3xl mb-8 border border-rose-500/20 shadow-sm">
                 <FaTools />
               </div>
-              <h3 className="text-3xl md:text-4xl font-black text-white mb-8 tracking-tight">Tools & Security</h3>
+              <h3 className="text-2xl md:text-3xl lg:text-4xl font-black text-white mb-8 tracking-tight">Tools & Security</h3>
               
               <div className="flex flex-wrap gap-4">
                 {toolSkills.map((skill) => (

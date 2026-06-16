@@ -64,7 +64,7 @@ function WebDevCybersecurity() {
             >
               <FaTerminal />
             </motion.div>
-            <h2 className="text-5xl md:text-6xl font-black text-center text-white tracking-tight mb-6 flex items-center gap-4">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-center text-white tracking-tight mb-6 flex flex-wrap justify-center items-center gap-2 sm:gap-4">
               <span className="text-emerald-500">{'>'}</span> Currently Learning <span className="animate-pulse text-emerald-500">_</span>
             </h2>
             <p className="text-emerald-100/60 mt-4 text-lg text-center max-w-2xl font-mono">
